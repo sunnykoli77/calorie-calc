@@ -346,8 +346,18 @@ function renderFive(dispatch, talk, app) {
           event.preventDefault();
 
           const foodField = event.target.foodItemText.value;
-          const amountField = event.target.carbItemNumber.value;
+          let amountField = event.target.carbItemNumber.value;
           const quantityField = event.target.carbItemNumber2.value;
+
+            if (!amountField && quantityField) {
+            const carbData = talk.carbohydrates.find(entry => entry.food === foodField);
+            if (carbData) {
+              amountField = ((carbData.nutPerHundred * quantityField) / 100).toFixed(2);
+            } else {
+              alert("Food data not available for calculation");
+              return;
+            }
+          }
 
           dispatch({type: "carbs", title: talk.title, itemCarbDis: foodField, amountCarbDis: Number(amountField), quantityCarbDis: Number(quantityField)});
 
@@ -414,7 +424,7 @@ function renderFive(dispatch, talk, app) {
           }), elt("datalist", {
             id: "foodCarbSuggestions"
           }), elt("input", {
-            id: "carbItemNumber", type: "number", name: "carbItemNumber", required: true}), elt("p", 
+            id: "carbItemNumber", type: "number", name: "carbItemNumber"}), elt("p", 
               null, "g in"), elt("input", {
                 id: "carbItemNumber2", type: "number", name: "carbItemNumber2", required: true, min: "1"}), elt("p", 
                   null, "g"), elt("button", {
@@ -429,8 +439,18 @@ function renderFive(dispatch, talk, app) {
         className: "macrosForm", onsubmit(event) {
           event.preventDefault();
           const foodField = event.target.foodItemText.value;
-          const amountField = event.target.protItemNumber.value;
+          let amountField = event.target.protItemNumber.value;
           const quantityField = event.target.protItemNumber2.value;
+
+            if (!amountField && quantityField) {
+            const protData = talk.proteins.find(entry => entry.food === foodField);
+            if (protData) {
+              amountField = ((protData.nutPerHundred * quantityField) / 100).toFixed(2);
+            } else {
+              alert("Food data not available for calculation");
+              return;
+            }
+          }
 
           dispatch({type: "prot", title: talk.title, itemProtDis: foodField, amountProtDis: Number(amountField), quantityProtDis: Number(quantityField)});
 
@@ -495,7 +515,7 @@ function renderFive(dispatch, talk, app) {
           }}), elt("datalist", {
             id: "foodProtSuggestions"
           }), elt("input", {
-            id: "protItemNumber", type: "number", name: "protItemNumber", required: true}), elt("p", 
+            id: "protItemNumber", type: "number", name: "protItemNumber"}), elt("p", 
               null, "g in"), elt("input", {
                 id: "protItemNumber2", type: "number", name: "protItemNumber2", required: true, min: "1"}), elt("p", 
                   null, "g"), elt("button", {
@@ -510,8 +530,18 @@ function renderFive(dispatch, talk, app) {
         className: "macrosForm", onsubmit(event) {
           event.preventDefault();
           const foodField = event.target.foodItemText.value;
-          const amountField = event.target.fatsItemNumber.value;
+          let amountField = event.target.fatsItemNumber.value;
           const quantityField = event.target.fatsItemNumber2.value;
+
+            if (!amountField && quantityField) {
+            const fatsData = talk.fats.find(entry => entry.food === foodField);
+            if (fatsData) {
+              amountField = ((fatsData.nutPerHundred * quantityField) / 100).toFixed(2);
+            } else {
+              alert("Food data not available for calculation");
+              return;
+            }
+          }
 
           dispatch({type: "fats", title: talk.title, itemFatsDis: foodField, amountFatsDis: Number(amountField), quantityFatsDis: Number(quantityField)});
 
@@ -576,7 +606,7 @@ function renderFive(dispatch, talk, app) {
           }}), elt("datalist", {
             id: "foodFatsSuggestions"
           }), elt("input", {
-            id: "fatsItemNumber", type: "number", name: "fatsItemNumber", required: true}), elt("p", 
+            id: "fatsItemNumber", type: "number", name: "fatsItemNumber"}), elt("p", 
               null, "g in"), elt("input", {
                 id: "fatsItemNumber2", type: "number", name: "fatsItemNumber2", required: true, min: "1"}), elt("p", 
                   null, "g"), elt("button", {
