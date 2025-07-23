@@ -1,0 +1,389 @@
+{
+  "arun": {
+    "title": "arun",
+    "password": "des",
+    "bodyWeight": 23
+  },
+  "sunny": {
+    "title": "sunny",
+    "password": "koli",
+    "bodyWeight": 142,
+    "exerciseHand": "Maintain Body Fat/Increase Muscle",
+    "lifestyleListHand": "Moderate/Active",
+    "exerciseHandAct": "No Exercise"
+  },
+  "tejaswini": {
+    "title": "tejaswini",
+    "password": "patil",
+    "bodyWeight": 567
+  },
+  "manoj": {
+    "title": "manoj",
+    "password": "bad",
+    "bodyWeight": 150,
+    "exerciseHand": 10,
+    "lifestyleListHand": 5,
+    "weightHand": 0,
+    "lowCardioHand": 0,
+    "highCardioHand": 0,
+    "calorie": 165
+  },
+  "kabir": {
+    "title": "kabir",
+    "password": "bedi",
+    "bodyWeight": 150,
+    "maintainGainLose": 10,
+    "lifeStyle": 5,
+    "weightTrainingMinutes": 0,
+    "lowCardioMinutes": 0,
+    "highCardioMinutes": 0,
+    "calorie": 2250
+  },
+  "bangor": {
+    "title": "bangor",
+    "password": "uni",
+    "bodyWeight": 234,
+    "maintainGainLose": 6,
+    "lifeStyle": 10,
+    "weightTrainingMinutes": 0,
+    "lowCardioMinutes": 0,
+    "highCardioMinutes": 0,
+    "calorie": 3744
+  },
+  "digvijay": {
+    "title": "digvijay",
+    "password": "singh",
+    "bodyWeight": 234,
+    "maintainGainLose": 10,
+    "lifeStyle": 5,
+    "weightTrainingMinutes": 0,
+    "lowCardioMinutes": 0,
+    "highCardioMinutes": 0,
+    "calorie": 3510
+  },
+  "cardiff": {
+    "title": "cardiff",
+    "password": "uni",
+    "bodyWeight": 234,
+    "maintainGainLose": 10,
+    "lifeStyle": 3,
+    "weightTrainingMinutes": 0,
+    "lowCardioMinutes": 0,
+    "highCardioMinutes": 0,
+    "calorie": 3042
+  },
+  "ian": {
+    "title": "ian",
+    "password": "hatt",
+    "bodyWeight": 345,
+    "maintainGainLose": 10,
+    "lifeStyle": 10,
+    "weightTrainingMinutes": 0,
+    "lowCardioMinutes": 0,
+    "highCardioMinutes": 0,
+    "calorie": 6900
+  },
+  "new": {
+    "title": "new",
+    "password": "day",
+    "bodyWeight": 163,
+    "maintainGainLose": 7,
+    "lifeStyle": 3,
+    "weightTrainingMinutes": 25,
+    "lowCardioMinutes": 0,
+    "highCardioMinutes": 0,
+    "calorie": 1880
+  },
+  "big": {
+    "title": "big",
+    "password": "show"
+  },
+  "bhakti": {
+    "title": "bhakti",
+    "password": "park",
+    "bodyWeight": 345,
+    "maintainGainLose": 13,
+    "lifeStyle": 10,
+    "weightTrainingMinutes": 0,
+    "lowCardioMinutes": 0,
+    "highCardioMinutes": 0,
+    "calorie": 7935
+  },
+  "complex": {
+    "title": "complex",
+    "password": "day",
+    "bodyWeight": 234,
+    "maintainGainLose": 10,
+    "lifeStyle": 5,
+    "weightTrainingMinutes": 0,
+    "lowCardioMinutes": 0,
+    "highCardioMinutes": 0,
+    "calorie": 3510
+  },
+  "maan": {
+    "title": "maan",
+    "password": "singh"
+  },
+  "diksha": {
+    "title": "diksha",
+    "password": "dix"
+  },
+  "hare": {
+    "title": "hare",
+    "password": "krishna",
+    "bodyWeight": 163,
+    "maintainGainLose": 7,
+    "lifeStyle": 5,
+    "weightTrainingMinutes": 0,
+    "lowCardioMinutes": 0,
+    "highCardioMinutes": 0,
+    "calorie": 1956
+  },
+  "man": {
+    "title": "man",
+    "password": "moon",
+    "carbohydrates": [
+      {
+        "food": "apple",
+        "perHundred": 25,
+        "quantityInHand": 20
+      },
+      {
+        "food": "pineapple",
+        "perHundred": 34,
+        "quantityInHand": 100
+      },
+      {
+        "food": "basmati",
+        "perHundred": 40,
+        "quantityInHand": 50
+      },
+      {
+        "food": "chickoo",
+        "perHundred": 85,
+        "quantityInHand": 40
+      },
+      {
+        "food": "jeera",
+        "perHundred": 20,
+        "quantityInHand": 5
+      },
+      {
+        "food": "jam",
+        "perHundred": 75,
+        "quantityInHand": 20
+      },
+      {
+        "food": "banana",
+        "perHundred": 6.666666666666667,
+        "quantityInHand": 30
+      },
+      {
+        "food": "butter",
+        "perHundred": 20,
+        "quantityInHand": 5
+      },
+      {
+        "food": "baegal",
+        "perHundred": 92,
+        "quantityInHand": 25
+      },
+      {
+        "food": "jhunka ",
+        "perHundred": 67.6470588235294,
+        "quantityInHand": 34
+      },
+      {
+        "food": "pineapple",
+        "perHundred": 33,
+        "quantityInHand": 100
+      },
+      {
+        "food": "jhunka ",
+        "perHundred": 94.11764705882354,
+        "quantityInHand": 34
+      }
+    ],
+    "proteins": [],
+    "fats": [],
+    "bodyWeight": 163,
+    "maintainGainLose": 10,
+    "lifeStyle": 3,
+    "weightTrainingMinutes": 0,
+    "lowCardioMinutes": 0,
+    "highCardioMinutes": 0,
+    "calorie": 2119
+  },
+  "baron": {
+    "title": "baron",
+    "password": "trump",
+    "carbohydrates": [
+      {
+        "food": "wadapav",
+        "nutInHand": 5,
+        "quantityInHand": 10,
+        "nutPerHundred": 50
+      },
+      {
+        "food": "wadapav",
+        "nutInHand": 6,
+        "quantityInHand": 10,
+        "nutPerHundred": 60
+      },
+      {
+        "food": "gelatino",
+        "nutInHand": 5,
+        "quantityInHand": 10,
+        "nutPerHundred": 50
+      },
+      {
+        "food": "gelatino",
+        "nutInHand": 6,
+        "quantityInHand": 10,
+        "nutPerHundred": 60
+      },
+      {
+        "food": "gavin",
+        "nutInHand": 2,
+        "quantityInHand": 10,
+        "nutPerHundred": 20
+      }
+    ],
+    "proteins": [
+      {
+        "food": "wadapav",
+        "nutInHand": 3,
+        "quantityInHand": 10,
+        "nutPerHundred": 30
+      }
+    ],
+    "fats": [
+      {
+        "food": "wadapav",
+        "nutInHand": 5,
+        "quantityInHand": 10,
+        "nutPerHundred": 50
+      }
+    ],
+    "bodyWeight": 150,
+    "maintainGainLose": 10,
+    "lifeStyle": 3,
+    "weightTrainingMinutes": 0,
+    "lowCardioMinutes": 0,
+    "highCardioMinutes": 0,
+    "calorie": 1950
+  },
+  "dex": {
+    "title": "dex",
+    "password": "ter",
+    "carbohydrates": [
+      {
+        "food": "ice cream",
+        "nutInHand": 6,
+        "quantityInHand": 10,
+        "nutPerHundred": 60
+      },
+      {
+        "food": "banana",
+        "nutInHand": 5,
+        "quantityInHand": 8,
+        "nutPerHundred": 62.5
+      },
+      {
+        "food": "jelly",
+        "nutInHand": 6,
+        "quantityInHand": 5,
+        "nutPerHundred": 120
+      },
+      {
+        "food": "milk",
+        "nutInHand": 7,
+        "quantityInHand": 10,
+        "nutPerHundred": 70
+      },
+      {
+        "food": "pascal",
+        "nutInHand": 5,
+        "quantityInHand": 15,
+        "nutPerHundred": 33.333333333333336
+      },
+      {
+        "food": "pasta",
+        "nutInHand": 4,
+        "quantityInHand": 10,
+        "nutPerHundred": 40
+      }
+    ],
+    "proteins": [
+      {
+        "food": "ice cream",
+        "nutInHand": 8,
+        "quantityInHand": 14,
+        "nutPerHundred": 57.142857142857146
+      },
+      {
+        "food": "banana",
+        "nutInHand": 5,
+        "quantityInHand": 7,
+        "nutPerHundred": 71.42857142857143
+      },
+      {
+        "food": "jelly",
+        "nutInHand": 3,
+        "quantityInHand": 5,
+        "nutPerHundred": 60
+      },
+      {
+        "food": "milk",
+        "nutInHand": 8,
+        "quantityInHand": 10,
+        "nutPerHundred": 80
+      },
+      {
+        "food": "pascal",
+        "nutInHand": 4,
+        "quantityInHand": 5,
+        "nutPerHundred": 80
+      },
+      {
+        "food": "pasta",
+        "nutInHand": 3,
+        "quantityInHand": 10,
+        "nutPerHundred": 30
+      }
+    ],
+    "fats": [
+      {
+        "food": "ice cream",
+        "nutInHand": 8,
+        "quantityInHand": 10,
+        "nutPerHundred": 80
+      },
+      {
+        "food": "pascal",
+        "nutInHand": 2,
+        "quantityInHand": 7,
+        "nutPerHundred": 28.571428571428573
+      },
+      {
+        "food": "dandi",
+        "nutInHand": 3,
+        "quantityInHand": 3,
+        "nutPerHundred": 100
+      },
+      {
+        "food": "pasta",
+        "nutInHand": 3,
+        "quantityInHand": 5,
+        "nutPerHundred": 60
+      }
+    ],
+    "bodyWeight": 163,
+    "maintainGainLose": 10,
+    "lifeStyle": 3,
+    "weightTrainingMinutes": 20,
+    "lowCardioMinutes": 0,
+    "highCardioMinutes": 0,
+    "calorie": 2319
+  }
+}
